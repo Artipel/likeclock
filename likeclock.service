@@ -1,0 +1,13 @@
+[Unit]
+Description=Service that controls AlfaZeta 10-digit clock.
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/bin/bash %%LOC%%
+User=pi
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+

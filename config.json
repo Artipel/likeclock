@@ -1,0 +1,10 @@
+{
+  "url": "https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCkPjHTuNd_ycm__29dXM3Nw&key=AIzaSyBXpfee6eEHPEwmhkGzNBlCIQfF0d5upgQ",
+  "path": [
+    "items",
+    0,
+    "statistics",
+    "viewCount"
+  ],
+  "interval": 60
+}
